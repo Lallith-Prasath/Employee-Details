@@ -126,10 +126,10 @@ class UserTable {
     let regex = /^[a-zA-Z ]+$/;
 
     if (
-      regex.test(newName) ||
+      !regex.test(newName) ||
       newName === null ||
       newName.trim() === "" ||
-      regex.test(newDepartment) ||
+      !regex.test(newDepartment) ||
       newDepartment === null ||
       newDepartment.trim() === ""
     ) {
