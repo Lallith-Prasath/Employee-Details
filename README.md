@@ -1,5 +1,5 @@
 User Management JavaScript Application:
-  Thes application fetches user data from an API, displays it in a dynamic table and adds functionality to update and delete the users. 
+  This application fetches user data from an API, displays it in a dynamic table and adds functionality to update and delete the users. 
   The table is created and manipulated completely using JavaScript API calls are made using Fetch API and async/awart
 
 Features:
