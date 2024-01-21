@@ -27,3 +27,7 @@ Prerequisites:
 
 Usage:
   Instantiate the 'UserTable' class with the API URL, and call 'renderTable' method on the instance
+
+Example:
+   const table UserTable.getInstance(<Your API URL>);
+   table.renderTable();
